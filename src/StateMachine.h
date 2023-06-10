@@ -21,7 +21,7 @@ class StateMachine
     int transitionTo(int i);
 	
     // Attributes
-    LinkedList<State*> *stateList;
+    LinkedList::LinkedList<State*> *stateList;
 	  bool executeOnce = true; 	//Indicates that a transition to a different state has occurred
     int currentState = -1;	//Indicates the current state number
 };
