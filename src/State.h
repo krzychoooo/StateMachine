@@ -33,7 +33,7 @@ class State{
     // stateLogic is the pointer to the function
     // that represents the state logic
     void (*stateLogic)();
-    LinkedList::LinkedList<struct Transition*> *transitions;
+    LL::LinkedList<struct Transition*> *transitions;
 	int index;
 };
 
