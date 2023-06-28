@@ -1,7 +1,7 @@
 #include "State.h"
 
 State::State(){
-  transitions = new LinkedList::LinkedList<struct Transition*>();
+  transitions = new LL::LinkedList<struct Transition*>();
 };
 
 State::~State(){};
