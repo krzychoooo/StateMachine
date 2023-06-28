@@ -1,7 +1,7 @@
 #include "StateMachine.h"
 
 StateMachine::StateMachine(){
-  stateList = new LinkedList::LinkedList<State*>();
+  stateList = new LL::LinkedList<State*>();
 };
 
 StateMachine::~StateMachine(){};
